@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a663cc;
+}
+
+.container {
+    background: #e0aaff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #6a0dad;
+    /* Muda a cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(106, 13, 173, 0.5);
+    /* Adiciona um efeito de brilho */
+}
+
+button {
+    background: #5a189a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: #a663cc;
+}
